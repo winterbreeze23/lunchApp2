@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Table from './Table'
 import Form from './Form'
+import UserAccount from './UserAccount/component'
 
 // Day
 // Date
@@ -61,10 +62,11 @@ class App extends Component {
   
     return (
       <div className="container">
-        <h1>Lunch Center</h1>
+        {/* <h1>Lunch Center</h1>
         <Table lunchData={lunches} removeLunch={this.removeLunch} />
         <h3>Post New Lunch</h3>
-        <Form handleSubmit={this.handleSubmit} />
+        <Form handleSubmit={this.handleSubmit} /> */}
+        <UserAccount />
       </div>
     )
   }
